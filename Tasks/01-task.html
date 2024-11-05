@@ -26,6 +26,18 @@
     */
 
     <script>
+         let div = document.querySelector("#colorOutput")
+        document.addEventListener("keydown",function(e) {
+            if(e.key=="g"||e.key=="G") {
+                    div.style.background = "green"
+            }
+            if(e.key=="r"||e.key=="R") {
+                    div.style.background = "red"
+            }
+            if(e.key=="b"||e.key=="B") {
+                    div.style.background = "blue"
+            }
+        })
     
     </script>
 </body>
